@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: rgba(143, 146, 144, 0.8);
+}
+
+
+.nombreCatalogo {
+  font-size: 50px;
+  padding: 20px;
+  box-shadow: 1px 5px 20px black;  
+  margin: 50px auto 50px auto;
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  background-color: rgb(118, 141, 144);
+  
+}
+
+
+img {
+    width: 280px;
+    height: 270px;
+    transition: .3s;
+    margin:10px ;
+    box-shadow: 2px  1px 10px black;
+    border-radius: 20px;
+    
+
+}
+
+
+img:hover {
+    width: 290px;
+    height: 280px;
+    box-shadow: 2px 1px 40px black;
+
+  }
+
+  .perfume {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    animation: aparecer 2s forwards 0.3s;
+    
+    
+  }
+
+  .perfumes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@keyframes aparecer {
+  0% {opacity: 0;  
+}
+  100% {
+    opacity: 1;
+  }
+}
+
